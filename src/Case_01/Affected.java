@@ -12,4 +12,18 @@ public class Affected
 	   
 	   Reporter.log("hi",true);
    }
+	 @Test()
+   public void test01()
+   {
+	   Reporter.log("hello",true);
+	   
+	   Reporter.log("hello",true);
+   }
+	 @Test()
+   public void test01()
+   {
+	   Reporter.log("hi",true);
+	   
+	   Reporter.log("hi",true);
+   }
 }
