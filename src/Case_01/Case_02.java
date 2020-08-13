@@ -3,13 +3,11 @@ package Case_01;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class Affected 
+public class Case_02 
 {
    @Test()
-   public void test01()
+   public void test_01()
    {
-	   Reporter.log("hello",true);
-	   
-	   Reporter.log("hi",true);
+	   Reporter.log("hi...");
    }
 }
