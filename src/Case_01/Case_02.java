@@ -10,4 +10,10 @@ public class Case_02
    {
 	   Reporter.log("hi...");
    }
+	 @Test()
+   public void test_03()
+   {
+	   Reporter.log("hi...hello...");
+   }
+	
 }
